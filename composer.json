@@ -1,0 +1,29 @@
+{
+    "name": "fruitcake/php-cors",
+    "description": "Cross-origin resource sharing library for the Symfony HttpFoundation",
+    "keywords": ["cors", "symfony", "laravel"],
+    "homepage": "https://github.com/fruitcake/php-cors",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fruitcake",
+            "homepage": "https://fruitcake.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ztakaev\\Gigachat\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ztakaev\\Gigachat\\GigachatServiceProvider"
+            ]
+        }
+    }
+}
